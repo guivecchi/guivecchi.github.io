@@ -7,6 +7,20 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      var elem = document.getElementById("myButton1");
+      if (elem.value=="Fechar Formulário") elem.value = "Adicionar Item";
+      else elem.value = "Fechar Formulário";
+
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
 </head>
 <body>
 
@@ -27,6 +41,23 @@
   </div>
 </nav>
 
+
+
+<h4  style="text-align: center;">Cadastro de novos itens</h4>
+
+<div style="text-align:center">
+  <input onclick="myFunction()" class="btn btn-primary" type="button" value="Adicionar Item" id="myButton1"></input>
+</div>
+
+<div id="myDIV" style="display: none;">
+  <div class="container" style="text-align: center; display: flex; justify-content: center;">
+    <script type="text/javascript" src="https://c2aca196.caspio.com/dp/948a9000014df39943e349d9965b/emb"></script>
+  </div>
+</div>
+
+
+<hr>
+
 <h4 style="text-align: center;">Lista de itens registrados</h4>
 <div class="container" style="text-align: center; display: flex; justify-content: center;">
     <script type="text/javascript" src="https://c2aca196.caspio.com/dp/948a9000fa8bbe47edb540048797/emb"></script>
@@ -34,12 +65,6 @@
 
 <div style="text-align:center"> 
     <a class="btn btn-primary" href="/confirmacao_doacao.html" role="button">Finalizar Doação</a>
-</div>
-
-<hr>
-<h4  style="text-align: center;">Cadastro de novos itens</h4>
-<div class="container" style="text-align: center; display: flex; justify-content: center;">
-    <script type="text/javascript" src="https://c2aca196.caspio.com/dp/948a9000014df39943e349d9965b/emb"></script>
 </div>
 
 </body>
