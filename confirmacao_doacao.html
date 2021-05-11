@@ -7,6 +7,29 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    div.container {
+      width: 95%;
+      overflow: hidden;
+    }
+
+    div.box {
+      box-sizing: border-box;
+      -moz-box-sizing: border-box; /* Firefox */
+      width: 33.3%;
+      float: left;
+    }
+
+    div.box:last-child {
+      float: none;
+      overflow: hidden;
+    }
+
+    .verticalLine {
+      border-left: thin solid #dddddd;
+      border-right: thin solid #dddddd;
+    }
+  </style>
 </head>
 <body>
 
@@ -27,12 +50,44 @@
   </div>
 </nav>
 
+<h3 style="text-align: center;">Resumo da doação</h3>
+<hr>
+<div class="container">
+  <div class="box">
+    <h4 style="text-align: center;">Dados do doador</h4>
+    <div style="text-align: center; display: flex; justify-content: center;">
+        <script type="text/javascript" src="https://c2aca196.caspio.com/dp/948a9000a2761b14cb964e0a8a92/emb"></script>
+    </div>
+  </div>
+  <div class="box verticalLine">
+    <h4 style="text-align: center;">Dados do agendamento</h4>
+    <div style="text-align: center; display: flex; justify-content: center;">
+      <script type="text/javascript" src="https://c2aca196.caspio.com/dp/948a9000679c84f02d3741978b2f/emb"></script>
+    </div>
+    <br>
+    <div style="text-align: center; display: flex; justify-content: center;">
+        <script type="text/javascript" src="https://c2aca196.caspio.com/dp/948a90005ef6e2d9fe7b439ba674/emb"></script>
+    </div>
+  </div>
+  <div class="box">
+    <h4 style="text-align: center;">Itens da doação</h4>
+    <div style="text-align: center; display: flex; justify-content: center;">
+      <script type="text/javascript" src="https://c2aca196.caspio.com/dp/948a9000263e65a39971467b99e6/emb"></script>
+    </div>
+  </div>
+</div>
+
+<div style="text-align: center; display: flex; justify-content: center;">
+  <script type="text/javascript" src="https://c2aca196.caspio.com/dp/948a900081ebef54684e48ec8589/emb"></script>
+</div>
+
+
 <!-- <div style="text-align:center"> 
   <a class="btn btn-primary" href="/confirmacao_doacao.html" role="button">Informações simplificadas</a>
   <a class="btn btn-primary" href="/confirmacao_doacao.html?complete_view=true" role="button">Informações completas</a>
 </div> -->
 
-<h4 style="text-align: center;">Dados da Doação</h4>
+<!-- <h4 style="text-align: center;">Dados da Doação</h4>
 <div class="container" style="text-align: center; display: flex; justify-content: center;">
     <script type="text/javascript" src="https://c2aca196.caspio.com/dp/948a9000a5668cb65c694b3aac31/emb"></script>
 </div>
@@ -55,7 +110,7 @@
 </div>
 <div class="container" style="text-align: center; display: flex; justify-content: center;">
     <script type="text/javascript" src="https://c2aca196.caspio.com/dp/948a90005ef6e2d9fe7b439ba674/emb"></script>
-</div>
+</div> -->
 
 </body>
 </html>
