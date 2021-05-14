@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Registro Doação</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    *, *:after, *:before {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Open Sans";
+    }
+
+    /* Form progress_bar */
+    .progress_bar {
+      width: 1000px;
+      margin: 20px auto;
+      text-align: center;
+    }
+    .progress_bar .circle,
+    .progress_bar .bar {
+      display: inline-block;
+      background: #fff;
+      width: 40px; height: 40px;
+      border-radius: 40px;
+      border: 1px solid #d5d5da;
+    }
+    .progress_bar .bar {
+      position: relative;
+      width: 80px;
+      height: 6px;
+      top: -33px;
+      margin-left: -5px;
+      margin-right: -5px;
+      border-left: none;
+      border-right: none;
+      border-radius: 0;
+    }
+    .progress_bar .circle .label {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      line-height: 25px;
+      border-radius: 32px;
+      margin-top: 3px;
+      color: #b5b5ba;
+      font-size: 17px;
+    }
+    .progress_bar .circle .title {
+      color: #b5b5ba;
+      font-size: 13px;
+      line-height: 30px;
+      margin-left: -5px;
+    }
+
+    /* Done / Active */
+    .progress_bar .bar.done,
+    .progress_bar .circle.done {
+      background: #eee;
+    }
+    .progress_bar .bar.active {
+      background: linear-gradient(to right, #EEE 40%, #FFF 60%);
+    }
+    .progress_bar .circle.done .label {
+      color: #FFF;
+      background: #8bc435;
+      box-shadow: inset 0 0 2px rgba(0,0,0,.2);
+    }
+    .progress_bar .circle.done .title {
+      color: #444;
+    }
+    .progress_bar .circle.active .label {
+      color: #FFF;
+      background: #0c95be;
+      box-shadow: inset 0 0 2px rgba(0,0,0,.2);
+    }
+    .progress_bar .circle.active .title {
+      color: #0c95be;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">Bazar Gerando Falcões</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Registro Doação</a></li>
+      <!-- <li><a href="busca_usuario.html">Busca de Usuário</a></li> -->
+      <!-- <li><a href="#">Page 2</a></li> -->
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <!-- <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span> Cadastrar-se </a></li>
+      <li><a href="login_usuario.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
+    </ul>
+  </div>
+</nav>
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<div class="progress_bar">
+  <div class="circle done">
+    <span class="label done">1</span>
+    <span class="title">Itens</span>
+  </div>
+  <span class="bar done"></span>
+  <div class="circle active">
+    <span class="label">2</span>
+    <span class="title">Coleta</span>
+  </div>
+  <span class="bar"></span>
+  <div class="circle">
+    <span class="label">3</span>
+    <span class="title">Confirmação</span>
+  </div>
+</div>
+
+<div class="container" style="text-align: center; display: flex; justify-content: center;">
+    <script type="text/javascript" src="https://c2aca196.caspio.com/dp/948a900066b4d4d1bb194fb9860b/emb"></script>
+</div>
+
+</body>
+</html>
