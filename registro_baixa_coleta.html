@@ -7,6 +7,29 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .customSubmitButton
+      {
+        /*Submit Button Attributes*/
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        background: #027FAA;
+        border: none;
+        border-radius: 3px;
+        color: #FFFFFF;
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        height: 40px;
+        margin: 0px 10px;
+        min-width: 180px;
+        padding: 0px 20px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+  </style>
 </head>
 <body>
 
@@ -37,7 +60,7 @@
 </div>
 
 <div style="text-align:center"> 
-  <input class="btn btn-primary" type="submit" name="Submit" value="Enviar" class="newSBstyle" onclick="submitCBForm()"> 
+  <input class="customSubmitButton" type="submit" name="Submit" value="Enviar" class="newSBstyle" onclick="submitCBForm()"> 
 </div>
 
 </body>
