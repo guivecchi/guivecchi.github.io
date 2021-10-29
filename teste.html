@@ -1,0 +1,47 @@
+<style>
+    .custom1SubmitButton
+      {
+         -moz-border-radius: 3px;
+         -webkit-border-radius: 3px;
+         background: #F5821F;
+         border: none;
+         border-radius: 3px;
+         color: #FFFFFF;
+         display: inline-block;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 15px;
+         font-weight: 400;
+         margin: 0px 10px;
+         width: 190px;
+         height: 40px;
+         white-space: normal;
+         word-wrap: break-word;
+         padding: 5px 10px;
+         text-align: center;
+         text-transform: uppercase;
+         outline: none;
+         cursor: pointer;
+      }
+ 
+.custom1SubmitButton:hover
+      {
+         -moz-border-radius: 3px;
+         -webkit-border-radius: 3px;
+         background: #000000;
+         border: none;
+         border-radius: 3px;
+         color: #FFFFFF;
+         display: inline-block;
+         margin: 0px 10px;
+         width: 190px;
+         height: 40px;
+         white-space: normal;
+         word-wrap: break-word;
+         padding: 5px 10px;
+         text-align: center;
+         text-transform: uppercase;
+         outline: none;
+         cursor: pointer;
+      }
+  </style>
+<div style="text-align:center"><input class="custom1SubmitButton" name="Submit" onclick="parent.location='registro_contato_doacao_reagendamento?id_doador=[@field:id_doador]&amp;operacao=doacao'" value="Fazer Doação" /> <input class="custom1SubmitButton" name="Submit" onclick="parent.location='registro_contato?id_doador=[@field:id_doador]'" value="Cadastrar contato" /> <input class="custom1SubmitButton" name="Submit" onclick="parent.location='lista_doacoes_doador?id_doador=[@field:id_doador]'" value="Ver doações" /></div>
